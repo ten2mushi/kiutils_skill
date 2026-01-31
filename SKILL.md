@@ -26,7 +26,7 @@ kiutils is a Python library for parsing, creating, and modifying KiCad design fi
 
 ```bash
 # Define the kiutils Python interpreter
-KIUTILS_PYTHON="/Users/komorebi/Documents/projects/tools/hardware/kicad_tooling/.venv/bin/python"
+KIUTILS_PYTHON="/path/to/kiutils"
 
 # Run a script from your current project directory
 $KIUTILS_PYTHON my_kicad_script.py
@@ -38,7 +38,7 @@ $KIUTILS_PYTHON -c "from kiutils.board import Board; board = Board.from_file('pr
 $KIUTILS_PYTHON
 ```
 
-The kiutils environment is located at: `/Users/komorebi/Documents/projects/tools/hardware/kicad_tooling/.venv`
+The kiutils environment is located at: `/path/to/kiutils/`
 
 **Note:** File paths in your scripts are relative to your current working directory, not the venv location.
 
