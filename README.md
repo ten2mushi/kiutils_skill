@@ -1,3 +1,3 @@
 # kiutils_skill
 
-easily create schematic symbols, footprints, and much more
+easily create schematic symbols, footprints, and more
